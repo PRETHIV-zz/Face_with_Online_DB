@@ -15,7 +15,7 @@ name=input('\n enter user name')
 
 t=[face_id,name]
 try:
-    conn=pymysql.connect(host='sql12.freemysqlhosting.net',user='sql12303463',password='qln7hJ7jQX',db='sql12303463')
+    conn=pymysql.connect(host='remotemysql.com',user='gj2Uvygj7S',password='80podojDnm',db='gj2Uvygj7S')
     a1=conn.cursor()
     #t=['74','prethiv','10:15','290819']
     sql="INSERT INTO user_data (id, name) VALUES (%s, %s)"

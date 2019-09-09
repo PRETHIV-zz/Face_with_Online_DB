@@ -1,5 +1,5 @@
 import pymysql
-conn=pymysql.connect(host='sql12.freemysqlhosting.net',user='sql12303463',password='qln7hJ7jQX',db='sql12303463')
+conn=pymysql.connect(host='remotemysql.com',user='gj2Uvygj7S',password='80podojDnm',db='gj2Uvygj7S')
 a1=conn.cursor()
 #s1="SELECT * FROM user_data"
 ch=int(input("\n1.Date based \n2.Date and id based"))

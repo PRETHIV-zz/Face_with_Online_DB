@@ -1,6 +1,6 @@
 import os
 os.makedirs("Face Recognition")
-os.chdir("/Face Recognition")
+os.chdir("Face Recognition")
 os.makedirs("Cascades")
 os.makedirs("dataset")
 os.makedirs("trainer")

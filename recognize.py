@@ -8,7 +8,7 @@ recognizer = cv2.face.LBPHFaceRecognizer_create()
 recognizer.read('trainer/trainer.yml')
 cascadePath = "haarcascade_frontalface_default.xml"
 faceCascade = cv2.CascadeClassifier(cascadePath);
-conn=pymysql.connect(host='sql12.freemysqlhosting.net',user='sql12303463',password='qln7hJ7jQX',db='sql12303463')
+conn=pymysql.connect(host='remotemysql.com',user='gj2Uvygj7S',password='80podojDnm',db='gj2Uvygj7S')
 a1=conn.cursor()
 font = cv2.FONT_HERSHEY_SIMPLEX
 
